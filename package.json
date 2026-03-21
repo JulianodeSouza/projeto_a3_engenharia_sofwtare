@@ -1,0 +1,44 @@
+{
+  "name": "projeto_a3_engenharia_sofwtare",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "start:dev": "npx sequelize-cli db:migrate && nodemon --exec tsx src/app.ts",
+    "migration:generate": "ts-node src/infra/scripts/ask-name-migration.js",
+    "migrations": "npx sequelize-cli db:migrate",
+    "migration:undo": "npx sequelize-cli db:migrate:undo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JulianodeSouza/projeto_a3_engenharia_sofwtare.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/JulianodeSouza/projeto_a3_engenharia_sofwtare/issues"
+  },
+  "homepage": "https://github.com/JulianodeSouza/projeto_a3_engenharia_sofwtare#readme",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "multer": "^2.1.1",
+    "mysql2": "^3.20.0",
+    "readline-sync": "^1.4.10",
+    "sequelize": "^6.37.8",
+    "tsx": "^4.21.0"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/express": "^5.0.6",
+    "@types/multer": "^2.1.0",
+    "nodemon": "^3.1.14",
+    "sequelize-cli": "^6.6.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
