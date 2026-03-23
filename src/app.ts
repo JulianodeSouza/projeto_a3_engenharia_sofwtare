@@ -1,5 +1,4 @@
 import express, { Express } from "express";
-import multer from "multer";
 import * as dotenv from "dotenv";
 import { router } from "./api";
 
@@ -11,18 +10,6 @@ const port = process.env.PORT || 3000;
 // Middleware
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-
-// Configurar multer
-const storage = multer.diskStorage({
-  destination: (_req, _file, cb) => {
-    cb(null, "uploads/");
-  },
-  filename: (_req, file, cb) => {
-    cb(null, `${Date.now()}-${file.originalname}`);
-  },
-});
-
-const upload = multer({ storage });
 
 // Rotas
 app.use("/", router);

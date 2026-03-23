@@ -24,13 +24,20 @@
   },
   "homepage": "https://github.com/JulianodeSouza/projeto_a3_engenharia_sofwtare#readme",
   "dependencies": {
+    "@ai-sdk/google": "^3.0.52",
+    "@ai-sdk/groq": "^3.0.31",
+    "@ai-sdk/react": "^3.0.136",
+    "@mastra/ai-sdk": "^1.2.0",
+    "@mastra/core": "^1.15.0",
+    "ai": "^6.0.134",
     "dotenv": "^17.3.1",
     "express": "^5.2.1",
     "multer": "^2.1.1",
     "mysql2": "^3.20.0",
     "readline-sync": "^1.4.10",
     "sequelize": "^6.37.8",
-    "tsx": "^4.21.0"
+    "tsx": "^4.21.0",
+    "zod": "^3.25.76"
   },
   "devDependencies": {
     "@types/dotenv": "^6.1.1",
