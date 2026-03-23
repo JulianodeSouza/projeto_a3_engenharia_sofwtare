@@ -18,8 +18,6 @@ BarberShop API
 ├── 👥 Gerenciamento de Usuários (clientes)
 ├── 💈 Gerenciamento de Barbeiros (profissionais)
 ├── 📅 Sistema de Agendamentos
-├── 💇 Catálogo de Serviços (cortes e preços)
-├── ⭐ Sistema de Avaliações
 └── 🤖 Visagismo com IA (análise facial + recomendações)
 ```
 
