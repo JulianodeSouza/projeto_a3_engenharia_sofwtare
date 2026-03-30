@@ -1,11 +1,11 @@
 # BarberShop API - Sistema de Barbearia com Visagismo
 
-## 🎓 Trabalho Final - Gestão de Software
+## 🎓 Trabalho Final - Modelos, Métodos e Técnicas de Engenharia de Software
 
 **Instituição:** UNICURITIBA
 **Matéria:** Gestão de Software
 
-Este projeto é o resultado do trabalho acadêmico final (A3) da matéria de **Gestão de Software** da universidade UNICURITIBA. O objetivo é aplicar os conceitos de engenharia de software, arquitetura de sistemas, gestão de requisitos e boas práticas de desenvolvimento em um projeto real e funcional.
+Este projeto é o resultado do trabalho acadêmico final (A3) da matéria de **Modelos, Métodos e Técnicas de Engenharia de Software** da universidade UNICURITIBA. O objetivo é aplicar os conceitos de engenharia de software, arquitetura de sistemas, gestão de requisitos e boas práticas de desenvolvimento em um projeto real e funcional.
 
 ## 📋 Descrição
 
